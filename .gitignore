@@ -92,3 +92,5 @@ ENV/
 # Visual Studio Code
 .vscode/
 
+#az webapp up deployment files
+src.zip

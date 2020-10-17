@@ -26,3 +26,7 @@ def get_summary():
     else:
         translation = translator.translate('source', 'target', input_string)
         return jsonify({"output":translation})
+
+#only runs with docker deployments
+if __name__ == '__main__':
+    app.run(host="0.0.0.0")

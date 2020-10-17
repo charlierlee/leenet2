@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+    abp_host:
+        image: charlierlee/host
+        ports:
+            - "9901:5000"
